@@ -1,0 +1,17 @@
+{
+  "name": "Contact Book",
+  "version": "0.1.0",
+  "description": "A contact book created using node.js and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dion Pettaway",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^2.2.1"
+  },
+  "bin":{
+    "contacts": "index.js"
+  }
+}
